@@ -10,10 +10,12 @@
         }
     ],
     "require": {
-        "php": "^8.2",
-        "illuminate/support": "^11.0|^12.0",
-        "nativephp/mobile": "^3.0"
-    },
+        "php": "^8.2",                 
+        "illuminate/support": "^11.0|^12.0|^13.0"
+    },                                   
+    "suggest": {                        
+        "nativephp/mobile": "Required for Edge UI components and native bridge functions"
+    }, 
     "autoload": {
         "psr-4": {
             "Webkul\\NativephpRemote\\": "src/"
@@ -25,6 +27,5 @@
                 "Webkul\\NativephpRemote\\NativephpRemoteServiceProvider"
             ]
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
