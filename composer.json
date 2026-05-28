@@ -27,5 +27,6 @@
                 "Webkul\\NativephpRemote\\NativephpRemoteServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
