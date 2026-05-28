@@ -1,0 +1,30 @@
+{
+    "name": "aureuserp/nativephp-remote",
+    "description": "NativePHP hosted remote mode support — connect NativePHP mobile apps to a centralized web server",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Webkul",
+            "email": "support@webkul.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0",
+        "nativephp/mobile": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webkul\\NativephpRemote\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\NativephpRemote\\NativephpRemoteServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
